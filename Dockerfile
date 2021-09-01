@@ -4,7 +4,7 @@ FROM docker
 RUN apk add --no-cache -q curl openssh openssl sshpass bash nodejs-npm
 
 # install `zh` shell interpreter
-RUN npm i -g zx
+RUN npm install --global --unsafe-perm zx
 
 # install `flyctl`
 RUN curl -sL https://fly.io/install.sh | sh
