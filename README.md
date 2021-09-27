@@ -6,7 +6,7 @@
 
 ### GitLab
 
-Suggested configuratin for deploying any new release to `my-cluster-name` cluster.
+Suggested configuration for deploying any new release to `my-cluster-name` cluster.
 
 ```yaml
 deploy:
