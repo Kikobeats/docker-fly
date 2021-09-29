@@ -1,7 +1,7 @@
 FROM docker
 
 # basics dependencies
-RUN apk add --no-cache -q curl openssh openssl sshpass bash npm nodejs-current
+RUN apk add --no-cache -q curl openssh openssl sshpass bash npm nodejs-current python3
 
 # install `flyctl`
 RUN curl -sL https://fly.io/install.sh | sh
