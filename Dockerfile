@@ -10,4 +10,4 @@ ENV FLYCTL_INSTALL="/root/.fly"
 ENV PATH="$FLYCTL_INSTALL/bin:$PATH"
 
 # install `zx` interpreter
-RUN npm install -g zx@4
+RUN npm install -g zx-cjs
