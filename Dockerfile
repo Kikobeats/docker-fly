@@ -1,7 +1,7 @@
 FROM docker
 
 # basics dependencies
-RUN apk add --no-cache -q curl bash npm nodejs
+RUN apk add --no-cache -q git curl bash npm nodejs
 
 # install `flyctl`
 RUN curl -sL https://fly.io/install.sh | sh
