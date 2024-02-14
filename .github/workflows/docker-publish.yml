@@ -5,6 +5,7 @@ on:
     - cron: '0 0 * * MON'
   push:
     branches: [master]
+  workflow_dispatch:
 
 jobs:
   push_to_registry:
